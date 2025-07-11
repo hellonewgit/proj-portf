@@ -168,3 +168,51 @@ img {
     justify-content: center;
     gap: 32px;
 }
+
+@media (max-width: 1024px) {
+    .center {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .hero {
+        justify-content: center;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .hero__photo {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .heading {
+        font-size: 36px;
+    }
+
+    .header {
+        gap: 16px
+    }
+
+    .header__link {
+        font-size: 14px;
+    }
+
+    .education__li {
+        font-size: 16px;
+    }
+
+    .contacts__link {
+        font-size: 20px;
+    }
+}
