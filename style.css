@@ -103,3 +103,39 @@ img {
 .fa-square-js {
     color: rgb(233, 233, 6);
 }
+
+.portfolio {
+    padding-top: 151px;
+    padding-bottom: 151px;
+}
+
+.portfolio__content {
+    margin-top: 40px;
+}
+
+.education {
+    padding-top: 64px;
+    padding-bottom: 128px;
+    background-color: #f4f4f4;
+}
+
+.education__content {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.education__ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.education__li {
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 400;
+}
